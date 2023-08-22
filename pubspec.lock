@@ -62,6 +62,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_colorpicker:
+    dependency: "direct main"
+    description:
+      name: flutter_colorpicker
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.3"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -124,7 +131,7 @@ packages:
     source: hosted
     version: "1.0.1"
   path_parsing:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path_parsing
       url: "https://pub.dartlang.org"
@@ -184,6 +191,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.8"
+  touchable:
+    dependency: "direct main"
+    description:
+      name: touchable
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.1"
   typed_data:
     dependency: transitive
     description:
@@ -199,12 +213,12 @@ packages:
     source: hosted
     version: "2.1.1"
   xml:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: xml
       url: "https://pub.dartlang.org"
     source: hosted
     version: "5.3.1"
 sdks:
-  dart: ">=2.16.2 <3.0.0"
+  dart: ">=2.14.0 <3.0.0"
   flutter: ">=2.4.0-0.0.pre"
